@@ -33,5 +33,5 @@ rFunction = function(data, sdk, year, ...) {
   logger.info(readChar(fileName, file.info(fileName)$size))
 
   # provide my result to the next app in the MoveApps workflow
-  return(result)
+  return(data)
 }
